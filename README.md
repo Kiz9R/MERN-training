@@ -1,7 +1,9 @@
 # Mern-Training
 
-## PROJ 
+## PROJ
+
 This folder is for all the projects I do at home for training...
 
 ## SVT-MERN
-this folder is for all the thing I learn at training..
+
+This folder is for all the thing I learn at training...
