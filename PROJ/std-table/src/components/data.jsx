@@ -11,6 +11,9 @@ const Table = () => {
               <h3>Sno.</h3>
             </th>
             <th>
+              <h3>Image</h3>
+            </th>
+            <th>
               <h3>Name</h3>
             </th>
             <th>
@@ -42,6 +45,14 @@ const Table = () => {
               <p>1.</p>
             </td>
             <td>
+              <img
+                src="./img/1.jpg"
+                alt="no img found"
+                width="100px"
+                height="100px"
+              />
+            </td>
+            <td>
               <p>Neelima</p>
             </td>
             <td>
@@ -68,6 +79,14 @@ const Table = () => {
             {/* Student start */}
             <td>
               <p>2.</p>
+            </td>
+            <td>
+              <img
+                src="./img/2.jpg"
+                alt="no img found"
+                width="100px"
+                height="100px"
+              />
             </td>
             <td>
               <p>Rajesh</p>
@@ -98,6 +117,14 @@ const Table = () => {
               <p>3.</p>
             </td>
             <td>
+              <img
+                src="./img/3.jpg"
+                alt="no img found"
+                width="100px"
+                height="100px"
+              />
+            </td>
+            <td>
               <p>Suman</p>
             </td>
             <td>
@@ -126,6 +153,14 @@ const Table = () => {
               <p>4.</p>
             </td>
             <td>
+              <img
+                src="./img/4.jpg"
+                alt="no img found"
+                width="100px"
+                height="100px"
+              />
+            </td>
+            <td>
               <p>Neelima</p>
             </td>
             <td>
@@ -147,39 +182,19 @@ const Table = () => {
               <p>InActive</p>
             </td>
           </tr>
-          {/* Student end */}
-          <tr>
-            {/* Student start */}
-            <td>
-              <p>4.</p>
-            </td>
-            <td>
-              <p>Ratnam</p>
-            </td>
-            <td>
-              <p>Kshitija</p>
-            </td>
-            <td>
-              <p>Nandita</p>
-            </td>
-            <td>
-              <p>BCA</p>
-            </td>
-            <td>
-              <p>820xxxxxxx</p>
-            </td>
-            <td>
-              <p>04.08.01</p>
-            </td>
-            <td>
-              <p>Active</p>
-            </td>
-          </tr>
-          {/* Student end */}
+
           <tr>
             {/* Student start */}
             <td>
               <p>5.</p>
+            </td>
+            <td>
+              <img
+                src="./img/5.jpg"
+                alt="no img found"
+                width="100px"
+                height="100px"
+              />
             </td>
             <td>
               <p>Puneet</p>
@@ -210,6 +225,14 @@ const Table = () => {
               <p>6.</p>
             </td>
             <td>
+              <img
+                src="./img/6.jpg"
+                alt="no img found"
+                width="100px"
+                height="100px"
+              />
+            </td>
+            <td>
               <p>Dharma</p>
             </td>
             <td>
@@ -236,6 +259,14 @@ const Table = () => {
             {/* Student start */}
             <td>
               <p>7.</p>
+            </td>
+            <td>
+              <img
+                src="./img/7.jpg"
+                alt="no img found"
+                width="100px"
+                height="100px"
+              />
             </td>
             <td>
               <p>Kavitha</p>
@@ -266,6 +297,14 @@ const Table = () => {
               <p>8.</p>
             </td>
             <td>
+              <img
+                src="./img/8.jpg"
+                alt="no img found"
+                width="100px"
+                height="100px"
+              />
+            </td>
+            <td>
               <p>Khushi</p>
             </td>
             <td>
@@ -294,6 +333,14 @@ const Table = () => {
               <p>9.</p>
             </td>
             <td>
+              <img
+                src="./img/9.jpg"
+                alt="no img found"
+                width="100px"
+                height="100px"
+              />
+            </td>
+            <td>
               <p>Aseem</p>
             </td>
             <td>
@@ -320,6 +367,14 @@ const Table = () => {
             {/* Student start */}
             <td>
               <p>10.</p>
+            </td>
+            <td>
+              <img
+                src="./img/10.jpg"
+                alt="no img found"
+                width="100px"
+                height="100px"
+              />
             </td>
             <td>
               <p>Kalidas</p>
