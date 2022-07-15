@@ -2,6 +2,7 @@ import React from "react";
 
 const mainHeading = {
   textAlign: "center",
+  marginTop: "20px",
 };
 
 const bold = {
@@ -28,6 +29,12 @@ const div = {
   padding: "0 0 30px 0",
 };
 
+const underline = {
+  margin: "0 250px",
+  border: "3px solid",
+  backgroundColor: "cyan",
+};
+
 const Register = () => {
   return (
     <>
@@ -42,6 +49,7 @@ const Personal = () => {
     <>
       <div style={div}>
         <h1 style={mainHeading}>Personal Details</h1>
+        <div style={underline}></div>
 
         <form style={form}>
           <label style={bold}>First Name: </label>
