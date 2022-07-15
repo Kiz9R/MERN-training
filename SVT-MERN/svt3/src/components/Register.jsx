@@ -30,9 +30,9 @@ const div = {
 };
 
 const underline = {
-  margin: "0 250px",
+  margin: "0 350px",
   border: "3px solid",
-  backgroundColor: "cyan",
+  color: "cyan",
 };
 
 const Register = () => {
