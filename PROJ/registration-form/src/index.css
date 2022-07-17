@@ -1,1 +1,306 @@
+/* MY Imports */
 
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins:ital,wght@0,300;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap");
+
+/*
+=============== 
+Variables
+===============
+*/
+
+:root {
+  /* dark shades of primary color*/
+  --clr-primary-1: hsl(205, 86%, 17%);
+  --clr-primary-2: hsl(205, 77%, 27%);
+  --clr-primary-3: hsl(205, 72%, 37%);
+  --clr-primary-4: hsl(205, 63%, 48%);
+  /* primary/main color */
+  --clr-primary-5: hsl(205, 78%, 60%);
+  /* lighter shades of primary color */
+  --clr-primary-6: hsl(205, 89%, 70%);
+  --clr-primary-7: hsl(205, 90%, 76%);
+  --clr-primary-8: hsl(205, 86%, 81%);
+  --clr-primary-9: hsl(205, 90%, 88%);
+  --clr-primary-10: hsl(205, 100%, 96%);
+  /* darkest grey - used for headings */
+  --clr-grey-1: hsl(209, 61%, 16%);
+  --clr-grey-2: hsl(211, 39%, 23%);
+  --clr-grey-3: hsl(209, 34%, 30%);
+  --clr-grey-4: hsl(209, 28%, 39%);
+  /* grey used for paragraphs */
+  --clr-grey-5: hsl(210, 22%, 49%);
+  --clr-grey-6: hsl(209, 23%, 60%);
+  --clr-grey-7: hsl(211, 27%, 70%);
+  --clr-grey-8: hsl(210, 31%, 80%);
+  --clr-grey-9: hsl(212, 33%, 89%);
+  --clr-grey-10: hsl(210, 36%, 96%);
+  --clr-white: #fff;
+  --clr-red-dark: hsl(360, 67%, 44%);
+  --clr-red-light: hsl(360, 71%, 66%);
+  --clr-green-dark: hsl(125, 67%, 44%);
+  --clr-green-light: hsl(125, 71%, 66%);
+  --clr-black: #222;
+  /* --transition: all 0.3s linear; */
+  --spacing: 0.1rem;
+  --radius: 0.25rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  --max-width: 1170px;
+  --fixed-width: 450px;
+  --clr-orange-1: hsl(12, 83%, 98%);
+  --clr-orange-2: hsl(14, 91%, 95%);
+  --clr-orange-3: hsl(12, 89%, 89%);
+  --clr-orange-4: hsl(13, 87%, 82%);
+  --clr-orange-5: hsl(13, 88%, 68%);
+  --clr-orange-6: hsl(13, 88%, 55%);
+  --clr-orange-7: hsl(13, 74%, 49%);
+  --clr-orange-8: hsl(13, 74%, 33%);
+  --clr-orange-9: hsl(13, 73%, 25%);
+  --clr-orange-10: hsl(13, 73%, 16%);
+
+  /* my fonts */
+  --googlefont1: "Lato", sans-serif;
+  --googlefont2: "Poppins", sans-serif;
+  --googlefont3: "Ephesis", cursive;
+  --googlefont4: "ZCOOL KuaiLe", cursive;
+  --googlefont5: "Lobster", cursive;
+  --green: #0bda51;
+  --white1: #fdfff5;
+  --white2: #ffffe4;
+  --dark: #222;
+  --grey1: #a09f9f;
+  --grey2: #dee1e9;
+  --candy: #ff0800;
+  --tea: #d0f0c0;
+  --cherry: #fcc9b9;
+  --transition1: all 0.3s linear;
+  --transition2: all 1s ease-in-out;
+  --letterspace: 0.25rem;
+  --lightshadow: 2px 5px 3px 0 rgba(0, 0, 0, 0.25);
+  --darkshadow: 4px 10px 6px 0 rgba(0, 0, 0, 0.6);
+}
+/*
+=============== 
+Global Styles
+===============
+*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--tea);
+  font-family: var(--googlefont2);
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+.heading {
+  width: 80%;
+  text-align: center;
+}
+
+.heading h1 {
+  margin-bottom: 100px;
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--candy);
+}
+
+@media only screen and (max-width: 900px) {
+  .heading h1 {
+    font-size: 1.5rem;
+  }
+}
+
+.underline {
+  height: 0.25rem;
+  width: 5rem;
+  background: var(--clr-orange-7);
+  transform: translateY(-5rem);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  width: 90%;
+  position: absolute;
+  display: flex;
+  background-color: var(--white2);
+  align-items: center;
+  justify-content: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 90vh;
+  box-shadow: var(--dark-shadow);
+  border-radius: 30px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 55%;
+}
+
+/* img */
+.image {
+  width: 45%;
+  height: 100%;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px 30px 30px 10px;
+}
+
+.wrap2 {
+  width: 80%;
+  position: relative;
+  border-bottom: 2px solid var(--grey1);
+  margin-bottom: 13px;
+}
+
+.wrap {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+}
+
+.f1 {
+  border-bottom: 2px solid var(--grey1);
+  width: 40%;
+  position: relative;
+}
+.f2 {
+  border-bottom: 2px solid var(--grey1);
+  margin-left: auto;
+  width: 50%;
+  position: relative;
+}
+
+label {
+  font-size: 20px;
+  color: var(--clr-grey-2);
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  min-height: 25px;
+  border-bottom: none;
+  padding: 15px 0;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 2px;
+}
+
+@media only screen and (max-width: 900px) {
+  label {
+    font-size: 17px;
+  }
+}
+
+input {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  background: transparent;
+  color: var(--clr-grey-1);
+  font-weight: 500;
+  padding: 10px 0;
+}
+
+.btn {
+  margin-top: 20px;
+  text-transform: uppercase;
+  background: var(--candy);
+  color: var(--white1);
+  padding: 0.375rem 0.75rem;
+  letter-spacing: 1px;
+  display: inline-block;
+  transition: var(--transition2);
+  font-size: 0.875rem;
+  border: 2px solid var(--candy);
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 40px;
+}
+.btn:hover {
+  color: var(--candy);
+  background: var(--white1);
+  border-color: var(--candy);
+  transform: scale(1.2);
+}
+
+.focus-input {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.focus-input::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  transition: all 0.6s;
+  background: var(--candy);
+}
+
+input:focus + .focus-input::before {
+  width: 100%;
+}
+
+.has-val.input + form input::before {
+  width: 100%;
+}
+
+.focus-input2 {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.focus-input2::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  transition: all 0.6s;
+  background: var(--candy);
+}
+
+input:focus + .focus-input2::before {
+  width: 100%;
+}
+
+.has-val.input + form input2::before {
+  width: 100%;
+}
