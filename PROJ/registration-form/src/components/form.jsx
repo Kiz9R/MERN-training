@@ -24,7 +24,12 @@ const Form = () => {
 
           <div className="wrap2">
             <label htmlFor="">E-mail</label>
-            <input type="email" />
+            <input type="email" required />
+            <span className="focus-input2"></span>
+          </div>
+          <div className="wrap2">
+            <label htmlFor="">Password</label>
+            <input type="pasword" required />
             <span className="focus-input2"></span>
           </div>
           <div className="wrap2">
@@ -32,7 +37,34 @@ const Form = () => {
             <input type="text" />
             <span className="focus-input2"></span>
           </div>
-          <button className="btn">Register</button>
+          <div className="dateGender">
+            <div className="mainGender">
+              <div className="genderTitle">
+                <label htmlFor="">
+                  <p className="genderTitlep">Gender </p>
+                  <span className="dot">:</span>{" "}
+                </label>
+              </div>
+              <div className="gender">
+                <input type="radio" name="gender" value="male" />
+                male
+                <input type="radio" name="gender" value="female" />
+                female
+                <input type="radio" name="gender" value="other" />
+                others
+              </div>
+            </div>
+            <div className="date">
+              <label htmlFor="">
+                <p className="genderTitlep">DoB</p>
+              </label>
+              <input type="date" />
+            </div>
+          </div>
+
+          <button type="submit" className="btn">
+            Register
+          </button>
         </div>
         {/* <div className="image">
           <img src="pic2.jpeg" alt="" className="img" />
