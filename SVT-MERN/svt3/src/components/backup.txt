@@ -1,0 +1,98 @@
+
+<div style={div}>
+        <h1 style={mainHeading}>Registration</h1>
+        <div style={underline}></div>
+        <div style={container}>
+          <table
+            border="3px"
+            align="center"
+            rules="all"
+            width="80%"
+            style={Table}
+          >
+            <thead>
+              <tr>
+                <td>
+                  <h2>Personal Info</h2>
+                  {/* <div style={underline}></div> */}
+                </td>
+                <td>
+                  <h2>Address</h2>
+                  {/* <div style={underline}></div> */}
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style={tr}>
+                <td>
+                  <div style={form}>
+                    <div style={td}>
+                      <label style={bold}>First Name : </label>
+                      <input type="text" placeholder="First Name" required />
+                      <br />
+                      <br />
+                      <label style={bold}>Last Name : </label>
+                      <input type="text" placeholder="Last Name" required />
+                      <br />
+                      <br />
+                      <label style={bold}>Date of Birth : </label>
+                      <input type="date" placeholder="Date" required />
+                      <br />
+                      <br />
+                      <label style={bold}>Gender : </label>
+                      <input type="radio" name="gender" value="male" />
+                      Male
+                      <input type="radio" name="gender" value="Female" />
+                      Female
+                      <input type="radio" name="gender" value="Other" />
+                      Other
+                      <br />
+                      <br />
+                      <label style={bold}>Mobile No : </label>
+                      <input type="text" placeholder="xxxxx-xxxxx" required />
+                      <br />
+                      <br />
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div style={form}>
+                    <div>
+                      <label style={bold}>Address : </label>
+                      <input
+                        type="address"
+                        placeholder="Your address"
+                        required
+                      />
+                      <br />
+                      <br />
+                      <label style={bold}>Email : </label>
+                      <input type="email" placeholder="Your Email" required />
+                      <br />
+                      <br />
+                      <label style={bold}>Password : </label>
+                      <input
+                        type="password"
+                        placeholder="Your Password"
+                        required
+                      />
+                      <br />
+                      <br />
+                      <label style={bold}>State : </label>
+                      <select name="State">
+                        <option disabled selected value>
+                          Select your State
+                        </option>
+                        <option value="Tamil Nadu">Tamil Nadu</option>
+                        <option value="Kerela">Kerela</option>
+                        <option value="Maharastra">Maharastra</option>
+                        <option value="West Bengal">West Bengal</option>
+                      </select>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
