@@ -1,0 +1,109 @@
+body {
+  background-color: #fff;
+}
+
+/* .container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.first {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+.second {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+}
+.third {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+} */
+
+.first {
+  height: 100px;
+  width: 100px;
+  background-color: #3f4e4f;
+  margin-left: 600px;
+}
+.second {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(228, 152, 13);
+  float: left;
+  margin-left: 100px;
+}
+
+.third {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  float: bottom;
+  margin: 100px;
+  position: relative;
+  left: 100px;
+}
+
+.fourth {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  float: left;
+  margin: 50px;
+  position: relative;
+  left: 350px;
+
+  bottom: 250px;
+  margin-right: 50px;
+}
+
+.fifth {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  position: relative;
+  left: 100px;
+  bottom: 100px;
+}
+
+.sixth {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  position: relative;
+  left: 500px;
+  bottom: 200px;
+}
+
+.seventh {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  position: relative;
+  left: 1100px;
+  bottom: 300px;
+}
+
+.eighth {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  margin: 50px;
+  float: left;
+  position: relative;
+  left: 150px;
+  bottom: 350px;
+}
+
+.ninth {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  position: relative;
+  left: 1000px;
+  bottom: 300px;
+}
