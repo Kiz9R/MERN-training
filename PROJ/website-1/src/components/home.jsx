@@ -38,7 +38,7 @@ const Home = () => {
               Gallery
             </NavLink>
             <NavLink to="/staf" className="nav-link">
-              Faculty
+              Members
             </NavLink>
           </div>
         </div>

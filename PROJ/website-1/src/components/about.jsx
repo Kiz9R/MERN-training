@@ -30,8 +30,13 @@ const About = () => {
               odio animi repellendus, quod unde ducimus aliquid illo debitis
               suscipit!
             </p>
-            <NavLink to="/" className="main-btn">
-              Explore more
+            <NavLink to="/">
+              <button
+                className="main-btn"
+                onClick={() => window.scrollTo(0, 0)}
+              >
+                Explore more
+              </button>
             </NavLink>
           </div>
         </div>

@@ -39,6 +39,18 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
+
+      {/* footer */}
+
+      <footer className="section footer">
+        <p className="copyright">
+          <span className="copy">copyright &copy;</span>.all rights reserved
+        </p>
+        <p className="name">
+          ritankar <span className="copy">X </span>
+          <span className="penname">Kiz9R</span>
+        </p>
+      </footer>
     </>
   );
 }

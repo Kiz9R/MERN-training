@@ -9,27 +9,9 @@ const options = {
   items: 3,
   margin: 20,
   responsiveClass: true,
-
   autoplay: true,
   loop: true,
   smartSpeed: 500,
-  //   responsive: {
-  //     0: {
-  //       items: 1,
-  //     },
-  //     400: {
-  //       items: 1,
-  //     },
-  //     600: {
-  //       items: 2,
-  //     },
-  //     700: {
-  //       items: 3,
-  //     },
-  //     1000: {
-  //       items: 5,
-  //     },
-  //   },
 };
 
 const Gallery = () => {
@@ -112,8 +94,10 @@ const Gallery = () => {
           </OwlCarousel>
         </div>{" "}
         <div className="center">
-          <NavLink to="/" className="main-btn">
-            Explore more
+          <NavLink to="/">
+            <button className="main-btn" onClick={() => window.scrollTo(0, 0)}>
+              Explore more
+            </button>
           </NavLink>
         </div>
       </section>

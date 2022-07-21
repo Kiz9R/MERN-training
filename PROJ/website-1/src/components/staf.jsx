@@ -10,7 +10,7 @@ const Staf = () => {
         <div className="title-wrapper">
           <h2 className="title">
             our
-            <span className="subtitle">Stafs</span>
+            <span className="subtitle">members</span>
           </h2>
         </div>
         <div className="section center featured-center">
@@ -91,8 +91,10 @@ const Staf = () => {
           {/* one card */}
         </div>
         <div className="staf-link">
-          <NavLink to="/" className="main-btn">
-            Explore more
+          <NavLink to="/">
+            <button className="main-btn" onClick={() => window.scrollTo(0, 0)}>
+              Explore more
+            </button>
           </NavLink>
         </div>
       </section>
