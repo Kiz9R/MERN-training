@@ -71,7 +71,7 @@ const Gallery = () => {
             </div>
             <div className="gallery-img-container">
               <img
-                src="pic5.jpeg"
+                src="pic6.jpg"
                 height="300px"
                 alt="more img"
                 class="gallery-img"
@@ -82,7 +82,7 @@ const Gallery = () => {
             </div>
             <div className="gallery-img-container">
               <img
-                src="pic6.jpeg"
+                src="pic7.jpg"
                 height="300px"
                 alt="more img"
                 class="gallery-img"

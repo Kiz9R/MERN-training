@@ -11,32 +11,30 @@ const Home = () => {
         <div className="nav-center">
           <div className="nav-header">
             <img
-              src="logo512.png"
-              width="175px"
+              src="logo1.jpg"
+              width="90px"
               height="70px"
               alt="logo"
               className="nav-logo"
             />
-            {/* <button
-              type="button"
-              id="nav-toggle"
-              className="nav-toggle"
-              aria-label="nav toggler"
-            >
-              <i className="fas fa-bars"></i>
-            </button> */}
+            Scammer Institute of Technology
           </div>
+
+          {/* <div className="college">
+            <h4 className="title"> Scammer Institute of Technology</h4>
+          </div> */}
 
           <div className="nav-links">
             <NavLink to="/" className="nav-link">
               Home
             </NavLink>
-            <NavLink to="/about" className="nav-link">
-              About us
-            </NavLink>
             <NavLink to="/gallery" className="nav-link">
               Gallery
             </NavLink>
+            <NavLink to="/about" className="nav-link">
+              About us
+            </NavLink>
+
             <NavLink to="/staf" className="nav-link">
               Members
             </NavLink>
@@ -45,8 +43,8 @@ const Home = () => {
       </nav>
 
       <div className="underline"></div>
-      <About />
       <Gallery />
+      <About />
       <Staf />
     </>
   );
