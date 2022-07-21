@@ -1,0 +1,21 @@
+.container1 {
+  /* margin-top: 20px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first {
+  height: 100px;
+  width: 10%;
+  background-color: red;
+}
+.second {
+  height: 100px;
+  width: 10%;
+  background-color: green;
+}
+.third {
+  height: 100px;
+  width: 10%;
+  background-color: blue;
+}
