@@ -5,6 +5,7 @@ import Gallery from "./components/gallery";
 import Staf from "./components/staf";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+// import { NavLink } from "react-router-dom";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           </div>
         </div>
       </header>
+
       <BrowserRouter>
         <Routes>
           <Route extact path="/" element={<Home />}>
