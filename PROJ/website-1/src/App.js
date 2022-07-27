@@ -3,6 +3,8 @@ import Home from "./components/home";
 import About from "./components/about";
 import Gallery from "./components/gallery";
 import Staf from "./components/staf";
+import Quote from "./components/quote";
+import Contact from "./components/contact";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 // import { NavLink } from "react-router-dom";
@@ -12,8 +14,8 @@ function App() {
     <>
       <header className="header">
         <div className="head">
-          <div className="mobile">xxxxx-xxxxx</div>
-          <div className="email">youremail@gmail.com</div>
+          <div className="mobile">8240361634</div>
+          <div className="email">ritankardebnath2001@gmail.com</div>
           <div className="social">
             <div className="icon">
               <AiFillGithub />
@@ -37,6 +39,12 @@ function App() {
             {" "}
           </Route>
           <Route extact path="/staf" element={<Staf />}>
+            {" "}
+          </Route>
+          <Route extact path="/quote" element={<Quote />}>
+            {" "}
+          </Route>
+          <Route extact path="/contact" element={<Contact />}>
             {" "}
           </Route>
         </Routes>

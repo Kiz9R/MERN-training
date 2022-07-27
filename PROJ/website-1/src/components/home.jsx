@@ -3,6 +3,8 @@ import { NavLink } from "react-router-dom";
 import About from "./about";
 import Gallery from "./gallery";
 import Staf from "./staf";
+import Quote from "./quote";
+import Contact from "./contact";
 
 const Home = () => {
   return (
@@ -16,7 +18,7 @@ const Home = () => {
               height="70px"
               alt="logo"
               className="nav-logo"
-            />
+            />{" "}
             Scammer Institute of Technology
           </div>
 
@@ -38,6 +40,12 @@ const Home = () => {
             <NavLink to="/staf" className="nav-link">
               Members
             </NavLink>
+            <NavLink to="/quote" className="nav-link">
+              Quotes
+            </NavLink>
+            <NavLink to="/contact" className="nav-link">
+              Contact Us
+            </NavLink>
           </div>
         </div>
       </nav>
@@ -46,6 +54,8 @@ const Home = () => {
       <Gallery />
       <About />
       <Staf />
+      <Quote />
+      <Contact />
     </>
   );
 };
