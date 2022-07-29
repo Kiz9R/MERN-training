@@ -1,0 +1,115 @@
+body {
+  background-color: #ffffe4;
+}
+
+/* marksheet */
+.header {
+  margin: 0;
+  padding: 0;
+}
+
+/* title */
+
+.title-header {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.title {
+  color: teal;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.header-hero {
+  margin-top: 40px;
+  text-align: center;
+  color: teal;
+}
+/* end of title  */
+
+.underline {
+  margin-top: 20px;
+  height: 1px;
+  width: 100uw;
+  background-color: black;
+}
+
+/* result */
+
+.result-header {
+  margin-top: 30px;
+  text-align: center;
+}
+.exam {
+  color: red;
+  font-weight: bold;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-size: 1.3rem;
+}
+
+.result-underline {
+  margin-top: 30px;
+  height: 30px;
+  width: 100uw;
+  background-color: #add8e6;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 2px;
+  /* color: black; */
+  font-weight: bold;
+}
+
+.marks-underline {
+  /* margin-top: 30px; */
+  height: 25px;
+  width: 100uw;
+  background-color: #add8e6;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  /* color: black; */
+  font-weight: bold;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.person {
+  display: flex;
+  /* justify-content: space-around; */
+}
+
+.info {
+  text-align: left;
+}
+
+.roll {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+.value {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  transform: translateX(40px);
+  /* width: 300px; */
+}
+
+.holder {
+  /* margin-top: 20px; */
+  display: flex;
+  justify-content: space-around;
+}
+.hold {
+  margin-top: 20px;
+}
+/* end of result */
+/* end of marksheet */
